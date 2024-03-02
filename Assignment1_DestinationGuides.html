@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tips</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+      body{
+          width: 100%;
+          height:100vh;
+          background-image: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,0,0.5),rgba(0,0,50,0.5)),url('backgroundMain2.jpg');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+      }
+      
+      .banner{
+          position: fixed;
+          left:0;
+          right:0;
+          background: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15));
+          backdrop-filter: blur(10px);
+          border-radius: 20px;
+          margin: 20px;
+          color: white;
+          text-align: left;
+          padding-left: 20px; 
+          z-index: 2;
+      }
+        .logo{
+            float:left;
+            padding: 10px 0px 10px 0px;
+        }
+      .menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        justify-self: space-between;
+      } 
+        .menu ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 0px 40px 0px 40px;
+        }
+        .menu ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.5rem;
+        }
+        .menu ul li:hover a {
+            background: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25));
+            border-radius: 10px;
+            text-align: left;
+        }
+        #option3{
+            background: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25));
+            border-radius: 10px;
+            text-align: left;
+            padding: 5px 5px 5px 5px;
+        }
+        .destinationGuide{
+            padding:100px;
+        }   
+        .destinationGuide .howToUseDestinationGuide{
+        background: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15));
+          backdrop-filter: blur(10px);
+          border-radius: 20px;
+          margin: 20px;
+          color: white;
+          text-align: left;
+          padding-left: 20px; 
+          position: relative;
+          z-index: 1;
+          font-size: 1.5rem; 
+      }
+      .criteria{
+        background: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15));
+          backdrop-filter: blur(10px);
+          border-radius: 20px;
+          margin: 20px;
+          color: white;
+          text-align: left;
+          padding-left: 20px; 
+          position: relative;
+          z-index: 1;
+          font-size: 1.5rem;
+      }
+      .criteria ol li {
+        counter-increment: item;
+        margin-bottom: 30px; /* Add margin for spacing between list items */
+    }
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <span><h1><img src="travelTips.png" class="logo"></h1></span>
+        <div class="menu">
+            <ul>
+                <li id="option1"><a href="Assignment1_Home.html">Home</a></li>
+                <li id="option2"><a href="Assignment1_TravelGuides.html">Travel Guides</a></li>
+                <li id="option3"><a href="Assignment1_DestinationGuides.html">Destination Guides</a></li>
+                <li id="option4"><a href="Assignment1_Resources.html">Resources</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="destinationGuide">
+        <br><br><br>
+        <div class="howToUseDestinationGuide">
+            <h1>How to use the Destination Guides</h1>
+            <p> This page will help you pick the right destination, by giving you a list of criteria: </p>
+        </div>
+        <div class="criteria">
+            <ol>
+                <li><strong>Cultural Richness:</strong>
+                  <ul>
+                    <li><strong>Jaipur, Rajasthan:</strong> Known as the Pink City, Jaipur offers a rich cultural experience with its magnificent forts, palaces, and vibrant markets.</li>
+                    <li><strong>Varanasi, Uttar Pradesh:</strong> One of the oldest cities in the world, Varanasi is famous for its ghats along the Ganges River, spirituality, and Hindu rituals.</li>
+                  </ul>
+                </li>
+                <li><strong>Historical Significance:</strong>
+                  <ul>
+                    <li><strong>Agra, Uttar Pradesh:</strong> Home to the iconic Taj Mahal, Agra also boasts other historical marvels like Agra Fort and Fatehpur Sikri.</li>
+                    <li><strong>Delhi:</strong> The capital city is a treasure trove of historical sites including the Red Fort, Qutub Minar, and Humayun's Tomb.</li>
+                  </ul>
+                </li>
+                <li><strong>Natural Beauty:</strong>
+                  <ul>
+                    <li><strong>Leh-Ladakh, Jammu and Kashmir:</strong> Known for its stunning landscapes, rugged mountains, and serene lakes, Leh-Ladakh offers breathtaking views and adventurous activities.</li>
+                    <li><strong>Kerala:</strong> Referred to as "God's Own Country," Kerala is famous for its backwaters, lush greenery, and tranquil beaches.</li>
+                  </ul>
+                </li>
+                <li><strong>Adventure and Trekking:</strong>
+                  <ul>
+                    <li><strong>Manali, Himachal Pradesh:</strong> A popular destination for adventure enthusiasts, offering opportunities for trekking, river rafting, and paragliding amidst the Himalayas.</li>
+                    <li><strong>Rishikesh, Uttarakhand:</strong> Known as the "Yoga Capital of the World," Rishikesh also offers thrilling activities like white-water rafting, bungee jumping, and trekking.</li>
+                  </ul>
+                </li>
+                <li><strong>Beach Getaways:</strong>
+                  <ul>
+                    <li><strong>Goa:</strong> Famous for its beautiful beaches, vibrant nightlife, and Portuguese heritage, Goa is a top destination for beach lovers.</li>
+                    <li><strong>Andaman and Nicobar Islands:</strong> Offering pristine beaches, clear waters, and coral reefs, these islands are perfect for diving, snorkeling, and beach relaxation.</li>
+                  </ul>
+                </li>
+                <li><strong>Wildlife Sanctuaries and National Parks:</strong>
+                  <ul>
+                    <li><strong>Ranthambore National Park, Rajasthan:</strong> Known for its population of Bengal tigers, Ranthambore offers thrilling wildlife safaris amidst ancient ruins and lakes.</li>
+                    <li><strong>Jim Corbett National Park, Uttarakhand:</strong> India's oldest national park, renowned for its tiger population and diverse flora and fauna.</li>
+                  </ul>
+                </li>
+                <li><strong>Spiritual Retreats:</strong>
+                  <ul>
+                    <li><strong>Varanasi, Uttar Pradesh:</strong> Considered one of the holiest cities in Hinduism, Varanasi attracts pilgrims and spiritual seekers from around the world.</li>
+                    <li><strong>Rishikesh, Uttarakhand:</strong> Known for its ashrams, yoga centers, and the sacred Ganges River, Rishikesh offers a serene environment for spiritual practices and meditation.</li>
+                  </ul>
+                </li>
+                <li><strong>Food and Cuisine:</strong>
+                  <ul>
+                    <li><strong>Delhi:</strong> A melting pot of cultures and cuisines, Delhi offers a wide variety of street food, Mughlai delicacies, and international cuisines.</li>
+                    <li><strong>Amritsar, Punjab:</strong> Famous for its Punjabi cuisine, particularly the iconic Golden Temple langar serving free meals to thousands of visitors every day.</li>
+                  </ul>
+                </li>
+              </ol>
+              
+        </div>
+    </div>
+    
+</body>
+</html>
