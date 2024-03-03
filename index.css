@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+}
+body{
+  width: 100%;
+  height:100vh;
+  background-image: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,0,0.5),rgba(0,0,50,0.5)),url('backgroundMain2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banner{
+  position: fixed;
+  left:0;
+  right:0;
+  background: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15));
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 20px;
+  color: white;
+  text-align: left;
+  padding-left: 20px; 
+  z-index: 2;
+}
+.logo{
+    float:left;
+    padding: 10px 0px 10px 0px;
+}
+.menu{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+justify-self: space-between;
+} 
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 40px 0px 40px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.menu ul li:hover a {
+    background: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25));
+    border-radius: 10px;
+    text-align: left;
+}
+.Home{
+    color:white;
+    padding: 100px;
+    font-size: 1.5rem;
+}
+.intro{
+background: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15));
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 20px;
+  color: white;
+  text-align: left;
+  padding-left: 20px; 
+  position: relative;
+  z-index: 1;
+}
+.what{
+    background: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 20px; 
+    position: relative;
+    z-index: 1;
+}
+.importance{
+    background: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 20px; 
+    position: relative;
+    z-index: 1;
+}
+.how{
+    background: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 20px; 
+    position: relative;
+    z-index: 1;
+}
+#option1{
+    background: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25));
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+}
