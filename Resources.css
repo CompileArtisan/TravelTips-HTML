@@ -56,9 +56,6 @@ justify-self: space-between;
 }
 .Resources {
     padding:100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .ResourcesTable{
     background: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15));
@@ -89,4 +86,20 @@ justify-self: space-between;
 }
 .ResourcesTable .stateLink:hover {
     transform: scale(1.1); /* Increase size by 10% on hover */
+}
+.website{
+    float:inline-end;
+}
+.container {
+    display: flex;
+}
+.Resources {
+    flex: 1;
+}
+.website {
+    padding:100px;
+    border-radius: 20px;
+    margin-right: 45px;
+    flex: 1;
+    overflow: hidden;
 }
